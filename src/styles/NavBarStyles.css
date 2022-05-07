@@ -1,28 +1,52 @@
-.nav{
+nav{
     display: flex;
     align-items: center;
     background-color: #21222A;
     padding: 30px 25px;
     height: 90px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    -webkit-transition: .4s;
+    transition: .4s;
 }
 
-.nav > img{
-    width: 80px;
+nav > img{
+    width: 3%;
+    margin-right: 16px;
 }
 
-.nav > h2, .nav > h3{
+nav > h2{
     margin: 0;
 }
 
-.nav > h2{
+nav > h2{
     margin-right: auto;
     color: #61DAFB;
     font-weight: 700;
     font-size: 26px;
 }
 
-.nav > h3{
+nav > h3{
     color: #DEEBF8;
     font-weight: 600;
     font-size: 16px;
+}
+
+nav.light {
+    background-color: #ffff;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+nav.light > h2{
+    color: #00ABCA;
+}
+
+nav.light > h3{
+    color: black;
+}
+
+.switch-label{
+    margin-right: 8px;
+    margin-left: 8px;
 }
