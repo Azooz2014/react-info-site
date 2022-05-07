@@ -1,0 +1,28 @@
+.nav{
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+    padding: 30px 25px;
+    height: 90px;
+}
+
+.nav > img{
+    width: 80px;
+}
+
+.nav > h2, .nav > h3{
+    margin: 0;
+}
+
+.nav > h2{
+    margin-right: auto;
+    color: #61DAFB;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.nav > h3{
+    color: #DEEBF8;
+    font-weight: 600;
+    font-size: 16px;
+}
